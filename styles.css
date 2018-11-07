@@ -9,7 +9,7 @@
 }
 
 .container {
-    width:1500px;
+    width:1400px;
     margin:0 auto;
     border:1.25px solid #fff;
     box-shadow:0px 2px 7px #292929;
@@ -23,7 +23,7 @@
 
 .mainbody {
     height:900px;
-    width:1500x;
+    width:1400x;
     border: solid #eee;
     border-width:1px 0;
     padding: 10px;
