@@ -33,7 +33,11 @@
 }
 
 
-.header, .footer {
+.header {
+    height: 250px;
+    padding: 10px;
+}
+.footer {
     height: 60px;
     padding: 10px;
 }
