@@ -9,7 +9,7 @@
 }
 
 .container {
-    width:780px;
+    width:1300px;
     margin:0 auto;
     border:1.25px solid #fff;
     box-shadow:0px 2px 7px #292929;
@@ -23,12 +23,12 @@
 
 .mainbody {
     height:500px;
-    width:700px;
+    width:1300x;
     border: solid #eee;
     border-width:1px 0;
     padding: 10px;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 
