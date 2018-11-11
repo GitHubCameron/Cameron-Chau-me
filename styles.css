@@ -25,7 +25,9 @@
 
 .mainbody {
     height:800px;
+    width: auto;
     border: solid #eee;
+    border-radius:10px;
     border-width:1px 0;
     padding: 10px;
     font-family: Verdana, Geneva, sans-serif;
