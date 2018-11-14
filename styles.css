@@ -139,21 +139,6 @@ h1 {
 html {
     background-color:#424242
 }
-@media screen and (max-width: 720px) {
-	img {
-		width: 100%;
-}
-@media screen and (max-width: 480px) {
- img {
-	width: 100%;
-	}
-}
-
-@media screen and (max-width : 320px){
- img {
-	width: 100%;
-	}
-}
 .footer {
     background-color: whiteSmoke; 
     -webkit-border-bottom-right-radius:5px;
