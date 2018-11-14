@@ -35,7 +35,7 @@
     justify-content: center;
     width:100%;
     background-color:#222222;
-    align-items:center;
+	align-items:center;
 }
 .container-kyoto-one {
     display: flex;
@@ -43,7 +43,7 @@
     justify-content: center;
     width:100%;
     background-color:#222222;
-    align-items:center;
+	align-items:center;
 }
 img {
     height: 500px;
@@ -53,38 +53,38 @@ img {
     margin: 10px;
     transition: all 2s;
     border-radius: 5px 5px 5px 5px;
-    transition: filter 1s ease-in-out;
-    transition: transform 0.25s ease;
+	transition: filter 1s ease-in-out;
+	transition: transform 0.25s ease;
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
-    margin-left: 100px;
-    margin-top: 100px;
+	margin-left: 100px;
+	margin-top: 100px;
 }
 
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
-    -webkit-transform:scale(1.25); /* or some other value */
+	-webkit-transform:scale(1.25); /* or some other value */
     transform:scale(1.25);
-    overflow: hidden;
+	overflow: hidden;
 }
 .climb {
     width: 500px;
-    height: 500px;
+	height: 500px;
 }
 
 .top {
     width: 350px;
-    height: 300px;
+	height: 300px;
 }
 .cat {
     height: 500px;
-    width: 500px;
+	width: 500px;
 }
 .buddha {
     height: 600px;
-    width: 800px;
+	width: 800px;
 }
 .mainbody {
     width: auto;
@@ -96,7 +96,7 @@ img:hover {
     word-spacing: .5em;
     background-color:#222222;
     color:#FFFFFF;
-    border: 1px solid #004d99;
+	border: 1px solid #004d99;
 }
 
 .navbar{
@@ -140,18 +140,18 @@ html {
     background-color:#424242
 }
 @media screen and (max-width: 720px) {
-    img {
-    width: 100%;
+	img {
+		width: 100%;
 }
 @media screen and (max-width: 480px) {
-    img {
-    width: 100%;
+ img {
+	width: 100%;
 	}
 }
 
 @media screen and (max-width : 320px){
-    img {
-    width: 100%;
+ img {
+	width: 100%;
 	}
 }
 .footer {
@@ -165,11 +165,11 @@ html {
     box-shadow:0px 2px 7px #292929;
     border-radius:10px 10px 10px 10px;
     height: 60px;
-    border: 1px solid #004d99;
+	border: 1px solid #004d99;
     padding: 5px;
     background-color:#222222;
     color:#FFFFFF;
-    text-align:center;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12px;
+	text-align:center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
 }
