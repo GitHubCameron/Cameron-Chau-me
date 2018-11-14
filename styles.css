@@ -15,7 +15,7 @@
     -moz-box-shadow:0px 2px 7px #292929;
     -webkit-box-shadow:0px 2px 7px #292929;
     -moz-border-radius: 10px;
-	border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px;
     -webkit-border-radius:10px;
     background-color:#222222;
     text-align: center;
@@ -23,31 +23,31 @@
     color:#FFFFFF;
 }
 .container-img {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width:100%;
-	background-color:#222222;
+    background-color:#222222;
 }
 .container-kobe {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	width:100%;
-	background-color:#222222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    background-color:#222222;
 }
 img {
-	height: 500px;
-	width: 400px;
-	overflow: hidden;
-	border: 1px solid #000;
-	margin: 100px;
-	transition: all 2s;
-	border-radius: 5px 5px 5px 5px;
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+    border: 1px solid #000;
+    margin: 100px;
+    transition: all 2s;
+    border-radius: 5px 5px 5px 5px;
 }
 
 img:hover {
-	transform: scale (1.1);
+    transform: scale (1.1);
 }
 
 .mainbody {
