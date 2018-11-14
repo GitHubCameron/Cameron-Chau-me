@@ -57,7 +57,8 @@ img {
 	transition: transform 0.25s ease;
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
-	margin-left: 50px;
+	margin-left: 100px;
+	margin-top: 100px;
 }
 
 img:hover {
@@ -82,7 +83,7 @@ img:hover {
 	width: 500px;
 }
 .buddha {
-    height: 700px;
+    height: 600px;
 	width: 800px;
 }
 .mainbody {
@@ -95,6 +96,7 @@ img:hover {
     word-spacing: .5em;
     background-color:#222222;
     color:#FFFFFF;
+	border: 1px solid #004d99;
 }
 
 .navbar{
@@ -136,6 +138,10 @@ h1 {
 
 html {
     background-color:#424242
+}
+@media screen and (max-width: 720px) {
+	img {
+		width: 100%;
 }
 @media screen and (max-width: 480px) {
  img {
