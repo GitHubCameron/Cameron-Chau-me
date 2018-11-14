@@ -3,11 +3,10 @@
     content:"";
     zoom:1 /* ie fix */;
 }
-
 .container:after {
     clear:both;
 }
-
+/*.container is main container for website*/
 .container {
     width:1885px;
     margin:0 auto;
@@ -22,6 +21,7 @@
     text-align: top;
     color:#FFFFFF;
 }
+/*container-img first img div*/
 .container-img {
     display: flex;
     flex-wrap: wrap;
@@ -29,22 +29,25 @@
     width:100%;
     background-color:#222222;
 }
+/*kobe second img div*/
 .container-kobe {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
     background-color:#222222;
-	align-items:center;
+    align-items:center;
 }
+/*kyoto img div*/
 .container-kyoto-one {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
     background-color:#222222;
-	align-items:center;
+    align-items:center;
 }
+/*main img changes*/
 img {
     height: 500px;
     width: 400px;
@@ -53,14 +56,14 @@ img {
     margin: 10px;
     transition: all 2s;
     border-radius: 5px 5px 5px 5px;
-	transition: filter 1s ease-in-out;
-	transition: transform 0.25s ease;
+    transition: filter 1s ease-in-out;
+    transition: transform 0.25s ease;
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
-	margin-left: 100px;
-	margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
-
+/*on hover img does this*/
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -69,6 +72,7 @@ img:hover {
     transform:scale(1.25);
 	overflow: hidden;
 }
+/*individual div pictures*/
 .climb {
     width: 500px;
 	height: 500px;
@@ -86,6 +90,7 @@ img:hover {
     height: 600px;
 	width: 800px;
 }
+/*body text*/
 .mainbody {
     width: auto;
     border-radius:10px 10px 10px 10px;
@@ -96,9 +101,9 @@ img:hover {
     word-spacing: .5em;
     background-color:#222222;
     color:#FFFFFF;
-	border: 1px solid #004d99;
+    border: 1px solid #004d99;
 }
-
+/*Navigation bar and options*/
 .navbar{
     border-width:100% 0;
     list-style:none;
@@ -120,6 +125,7 @@ img:hover {
     padding:14px 16px;
     float:center;
 }
+/*header div with rounded border*/
 .header {
     height: 40px;
     padding: 2px;
@@ -128,17 +134,18 @@ img:hover {
     color:#FFFFFF;
     font-family: Verdana, Geneva, sans-serif;
 }
-
+/*h1 in header*/
 h1 {
     font-size: 32px;
     text-align: center top;
     color:#FFFFFF;
     font-family: Verdana, Geneva, sans-serif;
 }
-
+/*background color for whole website*/
 html {
     background-color:#424242
 }
+/*footer div with rounded border with border*/
 .footer {
     background-color: whiteSmoke; 
     -webkit-border-bottom-right-radius:5px;
@@ -150,11 +157,11 @@ html {
     box-shadow:0px 2px 7px #292929;
     border-radius:10px 10px 10px 10px;
     height: 60px;
-	border: 1px solid #004d99;
+    border: 1px solid #004d99;
     padding: 5px;
     background-color:#222222;
     color:#FFFFFF;
-	text-align:center;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
+    text-align:center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
 }
