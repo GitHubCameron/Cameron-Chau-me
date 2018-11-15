@@ -370,6 +370,12 @@ html {
       and (-webkit-device-pixel-ratio: 3) 
       and (orientation: landscape) {
 
+    /*Galaxy S7 and S8 */
+    @media only screen 
+      and (min-device-width : 360px) 
+      and (max-device-width : 640px) {
+
+}
     }
 
     /* HTC One portrait and landscape */
