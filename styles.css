@@ -62,21 +62,21 @@ img {
     filter: grayscale(0%); /* FF 35+ */
     margin-left: 100px;
     margin-top: 50px;
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 /*on hover img does this*/
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
-	-webkit-transform:scale(1.25); /* or some other value */
+    -webkit-transform:scale(1.25); /* or some other value */
     transform:scale(1.25);
-	overflow: hidden;
+    overflow: hidden;
 }
 /*individual div pictures*/
 .climb {
     width: 500px;
-	height: 500px;
+    height: 500px;
 }
 
 .chion {
@@ -86,18 +86,18 @@ img:hover {
 }
 .cat {
     height: 500px;
-	width: 500px;
+    width: 500px;
 }
 .top-chion {
     height: 600px;
-	width: 800px;
+    width: 800px;
 }
 /*body text*/
 .mainbody {
     width: auto;
     border-radius:10px 10px 10px 10px;
     border-width:.5px 0;
-	box-shadow:0px 2px 3px 3px #292929;
+    box-shadow:0px 2px 3px 3px #292929;
     padding: 10px;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 16px;
@@ -134,7 +134,7 @@ img:hover {
     padding: 2px;
     background-color:#222222;
     color:#FFFFFF;
-	border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px;
     font-family: Verdana, Geneva, sans-serif;
 }
 /*h1 in header*/
