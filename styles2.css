@@ -55,6 +55,5 @@
 	background-color:#408c99;
 }
 .myButton:active {
-	position:relative;
 	top:1px;
 }
