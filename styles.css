@@ -64,7 +64,7 @@ img {
 	transition: filter 1s ease-in-out;
 	transition: transform 0.25s ease;
 	/* FF 35+ */
-	margin-left: 100px;
+	margin-left: 50px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
